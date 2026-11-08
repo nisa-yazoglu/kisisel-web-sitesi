@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nisa Yazoğlu - Hakkımda</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+              
+    <link rel="stylesheet" href="hakkımda.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <nav class="d-flex p-3 align-items-center"> <!--d-flex yatay hizalama yapar. girişi sağa koymak için lazım oldu.-->
+        <a href="index.html">
+            <img src="ana-sayfa-malz/ana-sayfa-logosu.png" alt="logo" class="hakkımda-butonları me-3 ms-2" width="50px">
+        </a>
+
+      <button class="btn hakkımda-butonları" data-bs-toggle = "modal" data-bs-target="#ozgecmisModal"> Özgeçmiş </button>
+      
+ 
+    </nav>
+
+  <div class="container">
+
+    <div class="modal fade" id="ozgecmisModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+
+          <div class="modal-header">
+            <h4 class="modal-title">Özgeçmiş</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+
+          <div class="modal-body">
+            <p>Ad: Nisa Yazoğlu</p>
+            <p>E-posta: nisayazoglu@ogr.sakarya.edu.tr</p>
+
+            <div>
+              Sakarya Üniversitesi<br>
+              Bilgisayar Mühendisliği | 2023 - ? <br><br>
+
+              Şehit Adil Büyükcengiz İmam Hatip Lisesi <br>
+              Lise Diploması | 2018 - 2022 
+            </div>
+
+            <div>
+              <h2>Beceriler</h2>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="iletisimModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+
+              <div class="modal-header">
+                <h4 class="modal-title">İletişim</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+
+
+              <div class="modal-body">
+                <p>E-posta: nisayazoglu@ogr.sakarya.edu.tr</p>
+              </div>
+
+          </div>
+        </div>
+    </div>
+
+
+
+    <div class="d-flex flex-column align-items-center profil-kutusu">
+      <img src="profile.png" alt="kendi fotoğrafım" class="profil-resmi">
+
+      <h1 style="color: white;">Nisa Yazoğlu</h1>
+
+      <p class="description rounded text-center tanitim" style="color: white;">
+        Sakarya Üniversitesi Bilgisayar Mühendisliği bölümünde 1.sınıf öğrencisiyim. Mezun olduktan sonra, binlerce medeniyetin ve dolayısıyla milyonlarca hikayenin yaşamış olduğu bu topraklarda kendi animasyon stüdyomu kurup hikayelerimi anlatabileceğime inanıyorum. 
+      </p>
+
+      <div>
+        <a href="#gezegenKutusu">
+          <img src="hakkımda-malz/asagi2.png" class="asagi-ok">
+        </a>
+      </div>
+    </div>
+    
+      
+  </div>
+
+    
+    <div class="gezegen-kutusu" id="gezegenKutusu">
+      <div class="d-flex flex-column align-items-center">
+        <img src="hakkımda-malz/gezegenler-hakkımda/hobiler.png" class="gezegenler">
+        <a href="#hobiler" class="btn mt-2 gezBtn hobiRenk">İniş Yap</a>
+      </div>
+
+      <div class="d-flex flex-column align-items-center">
+        <img src="hakkımda-malz/gezegenler-hakkımda/favorifilmler.png" class="gezegenler">
+        <a href="#filmler" class="btn mt-2 gezBtn filmRenk">İniş Yap</a>
+      </div>
+
+      <div class="d-flex flex-column align-items-center">
+        <img src="hakkımda-malz/gezegenler-hakkımda/favorikitaplar.png" class="gezegenler">
+        <a href="#kitaplar" class="btn mt-2 gezBtn kitapRenk">İniş Yap</a>
+      </div>
+
+      <div class="d-flex flex-column align-items-center">
+        <img src="hakkımda-malz/gezegenler-hakkımda/ilgialanları.png" class="gezegenler">
+        <a href="ilgi-alanlari.html" class="btn mt-2 gezBtn ilgiRenk">İniş Yap</a>
+      </div>
+    </div>
+
+    <div class="hobiler" id="hobiler">
+        <h2 class="text-center" style="color: white;">- HOBİLER -</h2>
+        <div class="d-flex flex-row align-items-center">
+          <img src="hakkımda-malz/hobiler/kusHareketsiz.png" alt="Kuş" class="ms-2">
+          <p style="color: white; margin-left: 30px;">Kuş gözlemi yapmak!</p>
+        </div>
+
+        <div class="d-flex flex-row justify-content-end align-items-center">
+          <p style="color: white; margin-right: 30px;" >Eski para toplamak!</p>
+          <img src="hakkımda-malz/hobiler/eskipara.png" alt="Eski Para" class="me-4" id="eskiPara">
+        </div>
+
+        <div class="text-center my-4">
+          <a href="#gezegenKutusu">
+            <img src="hakkımda-malz/asagi.png" class="asagi-ok">
+          </a>
+        </div>
+
+    </div>
+
+    <div class="filmler" id="filmler">
+       <h2 class="text-center" style="color: white;">- FAVORİ FİLMLER -</h2>
+        <div class="d-flex justify-content-center">
+            <img src="hakkımda-malz/filmler/banshees.png" alt="The Banshees of Inisherin" >
+            <img src="hakkımda-malz/filmler/cucukvecanavar.jpg" alt="Çocuk ve Canavar" >
+            <img src="hakkımda-malz/filmler/budapest.png" alt="Büyük Budapeşte Oteli">
+            <img src="hakkımda-malz/filmler/spiderverse.jpg" alt="Spider-verse Filmleri">
+            <img src="hakkımda-malz/filmler/waltermitty.png" alt="Walter Mitty'nin Gizli Yaşamı" >
+        </div>
+        <div class="text-center my-4">
+          <a href="#gezegenKutusu">
+            <img src="hakkımda-malz/asagi.png" class="asagi-ok">
+          </a>
+        </div>
+    </div>
+
+    <div class="kitaplar" id="kitaplar">
+       <h2 class="text-center" style="color: white;">- FAVORİ KİTAPLAR -</h2>
+        <div class="d-flex justify-content-center">
+            <img src="hakkımda-malz/kitaplar/kanakacak.jpg" alt="Kan Akacak ve Bitecek" >
+            <img src="hakkımda-malz/kitaplar/tus.jpg" alt="Tuş">
+            <img src="hakkımda-malz/kitaplar/kaynanam.jpg" alt="Evlere Şenlik Kaynanam Nasıl Kudurdu">
+            <img src="hakkımda-malz/kitaplar/redkit.png" alt="Red Kit'i Öldüren Adam">
+            <img src= "hakkımda-malz/kitaplar/lanetlitavsan.jpg" alt="Lanetli Tavşan">
+        </div>
+        <div class="text-center my-4">
+          <a href="#gezegenKutusu">
+            <img src="hakkımda-malz/asagi.png" class="asagi-ok sonButon">
+          </a>
+        </div>
+    </div>
+
+    <script src="hakkımda.js"></script>
+    
+</body>
+</html>

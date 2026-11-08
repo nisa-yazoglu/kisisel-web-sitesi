@@ -1,0 +1,198 @@
+body {
+    font-family: 'Audiowide', sans-serif;
+    background-color: black;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8); /* hafif koyu şeffaf arka plan */
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.gezBtn,
+.hakkımda-butonları {
+    color: white;
+    transition: transform 250ms; /*yavaş geçiş sağlıyor */
+}
+
+.hakkımda-butonları:hover {
+    color: gray;
+}
+
+.gezBtn:hover,
+.hakkımda-butonları:hover {
+    transform: scale(1.1); /*üzerine fare gelince 110% büyüsün */
+}
+
+.gezBtn:active,
+.hakkımda-butonları:active {
+    transform: scale(0.8); /*tıklayınca 80%'e küçülsün */
+    color: white !important;
+}
+
+.profil-kutusu {
+    margin-top: 120px;
+}
+
+.profil-resmi {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.gezegen-kutusu {
+    margin-top: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+
+.gezegen-kutusu img {
+    width: 150px;
+    height: auto;
+} 
+
+
+.hobiRenk:hover {
+    transform: scale(1.1);
+    color: blue;
+}
+.filmRenk:hover {
+    transform: scale(1.1); 
+    color: orange;
+}
+.kitapRenk:hover {
+    transform: scale(1.1);
+    color: purple;
+}
+.ilgiRenk:hover {
+    transform: scale(1.1);
+    color: red;
+}
+
+
+.hobiler {
+    margin-top: 450px;
+    transform: scale(0.8);
+}
+
+.hobiler img:hover {
+    cursor: pointer;
+}
+
+.kitaplar img,
+.filmler img {
+    height: 300px;
+}
+
+.sonButon {
+    margin-bottom: 330px;
+}
+
+.kitaplar,
+.filmler {
+    margin-top: 450px;
+    scroll-margin-top: 100px;
+}
+
+.tanitim {
+    margin-bottom: 100px;
+}
+
+.asagi-ok {
+    width: 140px;
+    height: 140px !important;
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 250ms;
+}
+
+
+.asagi-ok:hover{
+  transform: scale(1.1);
+  color: gray;
+}
+
+.asagi-ok:active {
+  transform: scale(0.8);
+}
+
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profil-kutusu {
+        margin-top: 80px;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .profil-resmi {
+        width: 100px;
+        height: 100px;
+    }
+
+    .tanitim {
+        font-size: 14px;
+    }
+
+    .gezegen-kutusu {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        margin-top: 200px;
+    }
+
+    .gezegen-kutusu img {
+        width: 100px;
+    }
+
+    .hobiler, .filmler, .kitaplar {
+        margin-top: 200px;
+        padding: 0 15px;
+    }
+
+    .hobiler img, 
+    .filmler img, 
+    .kitaplar img {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        margin: 10px;
+    }
+
+    .filmler .d-flex, 
+    .kitaplar .d-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hobiler .d-flex {
+        flex-direction: column;
+        align-items: center !important;
+        text-align: center;
+    }
+
+    .hobiler p {
+        margin: 15px 0 !important;
+    }
+
+    .asagi-ok {
+        width: 80px;
+        height: 80px !important;
+    }
+
+    .sonButon {
+        margin-bottom: 150px;
+    }
+}
+
+
+

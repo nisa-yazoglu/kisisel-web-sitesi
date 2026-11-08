@@ -1,0 +1,173 @@
+body {
+  font-family: 'Audiowide', sans-serif;
+  background-color: rgb(0, 0, 0);
+}
+
+nav {
+  background-color: rgba(38, 37, 37, 0.8); 
+}
+
+.mirasBtn,
+.logobtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 250ms;
+  color: white;
+}
+
+.mirasBtn:hover,
+.logobtn:hover {
+  transform: scale(1.1);
+  color: gray;
+}
+
+.mirasBtn:active,
+.logobtn:active {
+  transform: scale(0.8);
+  color: white !important;
+}
+
+.logobtn {
+  width: 50px;
+  height: auto;
+}
+
+
+.resim-container {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.kale {
+  width: 100%;
+  display: block;
+  border-radius: 2px;
+  opacity: 0.9;
+  margin-top: 40px;
+}
+
+
+
+.sehir-menu {
+  position: absolute;  /*resmin bir kısmının üstünde durması için*/
+  top: 100px;
+  left: -70px; /* bir kısmı resmin dışına taşıyor */
+  width: 160px;
+  height: 500px;
+  background-color: rgba(240, 240, 240, 0.9);
+  padding: 15px;
+  border-radius: 3px;
+  transition: transform 250ms;
+
+}
+
+.sehir-menu:hover {
+  transform: scale(1.1);
+}
+
+
+/* Ortaya yakın başka bir kutu */
+.bilgi-kutusu {
+  position: absolute;
+  top: -20px;
+  left: 500px;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.sehir-item {
+  font-size: 15px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.baksiBaslik {
+  margin-top: 250px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+
+.ilkResim {
+  height: 400px;
+  width: auto;
+  object-fit: cover; /* Görsel taşarsa kırp */
+}
+
+.resimOrtalama {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.konusmalarBaksi,
+.sergiBaksi,
+.kadinEgitim,
+.odulBaksi,
+.baksiIlkDiv {
+  width: 900px;
+  margin: 0 auto; /* Kutuyu sayfa ortasına al */
+  margin-top: 150px;
+}
+
+.sergiBaksi,
+.kadinEgitim p {
+  color: white;
+}
+
+.sergiBaksi p {
+  font-size: 15px;
+}
+
+.konusmalarBaksi {
+  margin-bottom: 150px;
+}
+
+.slide-caption {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 16px;              /* resimle p arası boşluk */
+  color: #fff; 
+}
+
+.carousel-item {
+  text-align: center;           
+}
+
+.resimOrtalama img {
+  transition: transform 250ms;
+}
+
+.resimOrtalama img:hover {
+    transform: scale(1.1);
+}
+
+.resimOrtalama img:active {
+    transform: scale(0.8);
+}
+
+.sehir-item:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+
+@media (max-width: 768px) {
+  .flex-responsive {
+    flex-direction: column !important;
+  }
+}
+
+
+
+
+
