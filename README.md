@@ -1,6 +1,6 @@
 # Kişisel Web Sitesi
 
-Birinci sınıfta Web Teknolojileri dersi için yaptığım kişisel web sitesi. Kendimi ve memleketim Bayburt'u tanıttığım, uzay temalı bir site. Hazır tema kullanmadan HTML, CSS, JavaScript ve Bootstrap ile yazdım; iletişim formunda Vue.js, giriş ve form sonucu sayfalarında PHP kullandım.
+Birinci sınıfta Web Teknolojileri dersi için yaptığım kişisel web sitesi. Kendimi ve memleketim Bayburt'u tanıttığım, uzay temalı bir site. Hazır tema kullanmadan HTML, CSS, JavaScript ve Bootstrap ile yazdım; iletişim formunda Vue.js, giriş ve form sonucu sayfalarında PHP kullandım. Sitedeki gezegen, roket ve diğer çizimleri kendim çizdim.
 
 ## Sayfalar
 
@@ -10,7 +10,7 @@ Birinci sınıfta Web Teknolojileri dersi için yaptığım kişisel web sitesi.
 - **Memleketim:** Bayburt ve Baksı Müzesi hakkında bilgiler, fotoğraf kaydırıcısı.
 - **Mirasımız:** Bayburt'un geleneksel kıyafeti ehram.
 - **İletişim:** Form alanları hem düz JavaScript hem Vue ile kontrol ediliyor, gönderilen bilgiler PHP ile ayrı bir sayfada gösteriliyor.
-- **Giriş:** PHP ile basit bir kullanıcı adı ve şifre kontrolü.
+- **Giriş:** PHP ile bir kullanıcı adı ve şifre kontrolü.
 
 ## Çalıştırmak için
 
